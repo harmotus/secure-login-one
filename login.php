@@ -26,7 +26,7 @@
 				</label>
 				<input id="username" type="text" name="username" placeholder="Username" minlength="1" maxlength="50" required>
 			</div>
-			<input type="submit" value="Login">
+			<input type="submit" value="Submit">
 		</form>
 	</div>
 </body>

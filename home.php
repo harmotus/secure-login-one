@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	if ( !isset($_SESSION['connected']) ) {
-		exit(header('Location: index.php'));
+		exit(header('Location: index.html'));
 	}
 ?>
 <!DOCTYPE html>

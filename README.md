@@ -1,6 +1,6 @@
 # Secure Login One
 
-Private Keys : (&nbsp;**Never** on servers&nbsp;) and (&nbsp;**Never** on online devices&nbsp;)
+A secure login where the user's private key is never hosted on servers or the user's online devices.
 
 ## Requirements
 
@@ -49,3 +49,7 @@ Private Keys : (&nbsp;**Never** on servers&nbsp;) and (&nbsp;**Never** on online
 * Therefore, private keys : never on online servers and never on online devices.
 
 * This philosophy only applies when using symmetric encryption algorithms (&nbsp;AES, 3DES, etc.&nbsp;)
+
+## License
+
+[MIT](https://opensource.org/license/mit)

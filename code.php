@@ -75,7 +75,7 @@
 					-->
 				</div>
 				<div class="nox"></div>
-				<input type="submit" value="Code">
+				<input type="submit" value="Submit">
 			</form>
 		</div>
 	</div>
