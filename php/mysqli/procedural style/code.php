@@ -69,9 +69,9 @@
 					<label for="usercode" title="lock-icon">
 						<img class="ico" src="images/lock.svg" alt="lock-icon">
 					</label>
-					<input id="usercode" type="text" name="usercode" placeholder="Code ( 12-digit )" pattern="[0-9]{12}" autocomplete="off" minlength="12" maxlength="12" required>
+					<input id="usercode" type="text" name="usercode" placeholder="Code ( 12-digit )" pattern="[0-9]{12}" autocomplete="off" spellcheck="false" autocapitalize="none" minlength="12" maxlength="12" required>
 					<!--
-					<input id="usercode" type="text" name="usercode" placeholder="Code ( 12-digit )" pattern="([0-9]{1}[._+ \-]{0,1}){12}" autocomplete="off" minlength="12" maxlength="24" required>
+					<input id="usercode" type="text" name="usercode" placeholder="Code ( 12-digit )" pattern="([0-9]{1}[._+ \-]{0,1}){12}" autocomplete="off" spellcheck="false" autocapitalize="none" minlength="12" maxlength="24" required>
 					-->
 				</div>
 				<div class="nox"></div>
@@ -122,8 +122,8 @@
 
 	<script>
 		function myDisplay() {
-				document.getElementById("txtcodec").style.display="none";
-				document.getElementById("txtcoden").style.display="flex";
+			document.getElementById("txtcodec").style.display="none";
+			document.getElementById("txtcoden").style.display="flex";
 		};
 	</script>
 
